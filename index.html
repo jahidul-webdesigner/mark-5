@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="shortcut icon" href="Image/favicon.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="header-area">
+            <div class="manu-area py-3">
+                <nav class="navbar navbar-expand-md">
+                    <div class="container">
+                        <a href="#" class="navbar-brand">
+                            <img src="Image/dark-logo.png" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#manu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="manu">
+                            <ul class="navbar-nav ms-auto"> 
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#hero-area">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#product-area">PRODUCT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#service-area">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#contribution">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold"href="#contact">CONTACT</a>
+                                </li>
+                                
+                            </ul>
+        
+                        </div>
+                        <div class="manu-btn">
+                            <a href="#">MY ACCOUNT</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+                <!-- Button trigger modal -->
+        <section>
+            <button type="button" class="btn btn-primary modal-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="bi bi-messenger"></i>
+            </button>
+  
+                <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary">
+                            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Send a Massage</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col">
+                                    <p><b>Name:</b></p>
+                                    <input type="text" class="form-control Contact-area-form" placeholder="Your Name*" name="name">
+                                </div>
+                                <div class="col">
+                                    <p><b>E-mail Address:</b></p>
+                                    <input type="password" class="form-control Contact-area-form" placeholder="Your E-mail*" name="email">
+                                </div>
+                                <div class="mt-2">
+                                    <p><b>How can we help?</b></p>
+                                    <textarea class="form-control Contact-area-form mt-1" placeholder="Your massage*" rows="8" id="comment" name="text"></textarea>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer text-center">
+                            <button type="button" class="btn btn-primary">Send Massage</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero-area py-5" id="hero-area">
+            <div class="container hero-text-area py-5">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div class="hero-text">
+                            <h2 class="">
+                                We Provide <br> Tech Solutions & Help You <br> to Grow Your Business
+                            </h2>
+                            <p>
+                                Get custom software development and web service at the best price from <br> a company making success stories for over 10 years.
+                            </p>
+                        </div>
+                        
+                        <div class="hero-btn-area py-5 mb-5">
+                            <a href="#" class="text-decoration-none hero-btn">
+                                ALL PRODUCT
+                            </a>
+                            <a class="hero-btn-2" href="#">
+                                OUR SERVICE <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="plugin-area py-5" id="product-area">
+            <div class="container py-5">
+                <div class="row my-3 plugin-text text-center py-5">
+                    <div class="col-lg-12">
+                        <h3>WordPress Plugins</h3>
+                    </div>
+                </div>
+                <div class="row text-center text-white">
+                    <div class="col-lg-6 plugin-text-top-left py-4">
+                        <h4>Timetics Plugin</h4>
+                        <h5>WordPress Booking & Appointment Plugin</h5>
+                        <img src="image/calendar-img.png" alt="">
+                        <a class="plugin-btn" href="">Know More</a>
+                    </div>
+                    <div class="col-lg-6 plugin-text-top-right py-4">
+                        <h4>Eventin Plugin</h4>
+                        <h5>Event Management Plugin</h5>
+                        <img src="image/plugin_img2.png" alt="">
+                        <a class="plugin-btn" href="">Know More</a>
+                    </div>
+                </div>
+                <div class="row text-center text-white py-5">
+                    <div class="col-lg-4 plugin-text-bottom-left py-5">
+                        <br><br>
+                        <h4>WPCafe Plugin</h4>
+                        <h5>Restaurant Management Plugin</h5>
+                        <img class="w-100" src="image/plugin_img1.png" alt="">
+                        <a class="plugin-btn" href="">Know More</a>
+                    </div>
+                    <div class="col-lg-4 plugin-text-bottom-center py-5">
+                        <br><br>
+                        <h4>WPCafe App</h4>
+                        <h5>Restaurant Management APP</h5>
+                        <img class="w-100" src="image/app_img.png" alt="">
+                        <a class="plugin-btn" href="">Know More</a>
+                    </div>
+                    <div class="col-lg-4 plugin-text-bottom-right py-5">
+                        <p>COMING SOON</p>
+                        <h4>Timetics SaaS</h4>
+                        <h5>Booking & Appointment Solutions</h5>
+                        <img class="w-100" src="image/timetics-img.png" alt="">
+                        <a class="plugin-btn" href="">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-area py-5 text-center" id="service-area">
+            <div class="container">
+                <div class="row my-5 service-text text-center">
+                    <div class="col-lg-12">
+                        <h3>Services</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-3 py-5 px-2 service-post-1 single-service">
+                        <h2>
+                            Enterprise Software Development
+                        </h2>
+                        <a class="service-more-btn" href="#">Learn More</a>
+                        <a class="service-arrow-btn" href="#"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="col-lg-3 py-5 px-2 service-post-2 single-service">
+                        <h2>
+                            Mobile App Development <br> <br>
+                        </h2>
+                        <a class="service-more-btn" href="#">Learn More</a>
+                        <a class="service-arrow-btn" href="#"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="col-lg-3 py-5 px-2 service-post-3 single-service">
+                        <h2>
+                            Custom Product Development <br> <br>
+                        </h2>
+                        <a class="service-more-btn" href="#">Learn More</a>
+                        <a class="service-arrow-btn" href="#"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="col-lg-3 py-5 px-2 service-post-4 single-service">
+                        <h2>
+                            WordPress Plugin Development
+                        </h2>
+                        <a class="service-more-btn" href="#">Learn More</a>
+                        <a class="service-arrow-btn" href="#"><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="row text-center py-5 my-4">
+                    <div class="col-lg-12">
+                        <a class="Quote-btn" href="#">Get A Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contribution-area py-5" id="contribution" >
+            <div class="container">
+                <div class="row my-5 contribution-text text-center">
+                    <div class="col-lg-12">
+                        <h3>Our Contributions</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 contribution-post">
+                        <p>Sep 2022</p>
+                        <h4>WordCamp <br> Kathmandu</h4>
+                        <p>Joined as Bronze Sponsor. A team was on the event spot and provide swag, lift let, etc.</p>
+                        <img src="image/contribution-1.png" alt="">
+                    </div>
+                    <div class="col-lg-4 contribution-post">
+                        <p>Nov 2022</p>
+                        <h4>First Overseas Retreat - <br> Darjeeling, India</h4>
+                        <p>Arraytics full team was visiting Darjeeling to get refreshments and boost their confidence.</p>
+                        <img src="image/contribution-2.png" alt="">
+                    </div>
+                    <div class="col-lg-4 contribution-post">
+                        <p>Dec 2022</p>
+                        <h4>WordCamp <br> Kolkata</h4>
+                        <p>Joined as Contributor Day Sponsors. Our founder joined & meet the WordPress enthusiast.</p>
+                        <img src="image/contribution-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-area py-3">
+            <div class="container">
+                <div class="row text-white product-text">
+                    <div class="col-lg-10 offset-lg-1">
+                        <h1>Think Big. Get it done. <br>Accelerate Business.</h1>
+                        <a class="Product-btn" href="#">All Products</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-area py-5">
+            <div class="container">
+                <div class="row my-3 about-text text-center py-5">
+                    <div class="col-lg-12">
+                        <h3>Facts About Arraytics</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-3 about-single-post">
+                        <h3>10+</h3>
+                        <h5>Years of<br>Experience</h5>
+                    </div>
+                    <div class="col-lg-3 about-single-post">
+                        <h3>30+</h3>
+                        <h5>Team<br>Members</h5>
+                    </div>
+                    <div class="col-lg-3 about-single-post">
+                        <h3>120+</h3>
+                        <h5>Countries<br>World Wide</h5>
+                    </div>
+                    <div class="col-lg-3 about-single-post">
+                        <h3>6+</h3>
+                        <h5>Amazing<br>Products</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-area py-5" id="contact">
+            <div class="container">
+                <div class="row contact-text text-white">
+                    <div class="col-lg-10 offset-lg-1">
+                        <h1>Get In Touch <br>with Arraytics</h1>
+                        <h5>Email: hello@arraytics.com</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-area py-5">
+            <div class="container">
+                <div class="row text-center py-3">
+                    <div class="col-lg-12">
+                        <img src="image/dark-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="row text-center footer-text py-3">
+                    <div class="col-lg-8 offset-lg-2 text-center d-flex justify-content-around ">
+                        <a href="#">About</a>
+                        <a href="#">Affiliate Program</a>
+                        <a href="#">Products</a>
+                        <a href="#">Services</a>
+                        <a href="#">Career</a>
+                        <a href="#">Resources</a>
+                        <a href="#">Support</a>
+                    </div>
+                </div>
+                <div class="row text-center footer-icon py-4 ">
+                    <div class="col-lg-12">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row footer-bottom-text">
+                    <div class="col-lg-4">
+                        <p>© 2023, Arraytics. All right reserved.</p>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1 d-flex justify-content-around">
+                        <a href="#">Terms of Services</a>
+                        <a href="#">Refund Policy</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Affiliate Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
